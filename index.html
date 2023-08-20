@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="JS/script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="flex" id="header">
+    <div id="phone">
+      <a href="#addtionalcontactinfo" class="fa fa-phone"></a>
+    </div>
+
+    <div id="email">
+      <a href="#addtionalcontactinfo" class="fa fa-envelope"></a>
+    </div>
+
+    <div id="hours">
+      <a href="#addtionalcontactinfo" class="fa fa-clock-o"></a>
+    </div>
+
+    <div id="icons">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+
+  <img id="logo" src="Pictures/exp-logo-light.svg" alt="Light Theme of Company Logo">
+
+  <nav>
+    <a title="Home" href="#home-services">Home</a>
+    <a title="About" href="#about-us">About</a>
+    <a title="Team" href="#leadershipinfo">Team</a>
+    <a title="Services" href="#services">Services</a>
+    <a title="Why Choose Us?" href="#why">Why Choose Us?</a>
+    <a title="Testimonials" href="#testimonials">Testimonials</a>
+    <a title="Pricing" href="#pricing">Pricing</a>
+    <a title="Contact" href="#burningquestions">Contact</a>
+  </nav>
+
+  <div class="sidenav" id="mySidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#home-services">Home</a>
+    <a href="#about-us">About</a>
+    <a href="#leadershipinfo">Team</a>
+    <a href="#services">Services</a>
+    <a href="#why">Why Choose Us?</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#burningquestions">Contact</a>
+  </div>
+
+
+  <div class="flex" id="sidenavdisplay">
+    <span onclick="openNav()">&#9776;</span>
+  </div>
+
+  <div class="flex" id="home-services">
+    <div class="column" id="packerts">
+      <h2>The Best Packerts & Movers Service.</h2>
+      <span>Get started swiftly & easily by importing a demo of your choice in a single click. Over 30 high
+        quality
+        designed websites</span>
+      <p>For 24/7 Emergency Service <br> 890-658-5875</p>
+      <button class="quote" id="button1" type="button">Get A Quote</button>
+      <button class="learnmore" id="button2" type="button">Learn More</button>
+    </div>
+
+
+    <div class="column" id="requestquote">
+      <h2>Request A Free Quote</h2>
+      <p>Exponent WordPress theme is insanely flexible and easy to use.</p>
+      <form action="/action_page.php">
+        <label for="firstname">First name:</label><br>
+        <input type="text" id="firstname" name="first name" value=""><br>
+        <label for="lastname">Last name:</label><br>
+        <input type="text" id="lastname" name="last name" value=""><br>
+        <label for="e-mail">E-mail:</label><br>
+        <input type="text" id="e-mail" name="e-mail" value=""><br>
+        <label for="number">Phone Number:</label><br>
+        <input type="text" id="number" name="number" value=""><br><br>
+        <button class="availability" id="button3" type="button">Find Availability</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="flex" id="about-us">
+    <div class="column" id="xp-image">
+      <img id="img0" src="Pictures/exponent-movers-about.png" alt="15+ Years of Experience">
+    </div>
+
+    <div class="column" id="ourcompany">
+      <h2>Our Company</h2>
+      <h2>If you want high quality moving services this is the right place for you.</h2>
+      <span>Over 30 high quality professionally designed pre-built website concepts to choose from. Build your
+        website
+        using a fully visual interface, using our revolutionary page & header builder.</span>
+      <p>Get started swiftly & easily by importing a demo of your choice in a single click. Over 30 high quality
+        professionally designed pre-built website concepts to choose from. Exponent is a modern business theme,
+        that
+        lets you build stunning high performance websites.</p>
+      <button class="learnmore" id="button4" type="button">Learn More</button>
+    </div>
+  </div>
+
+  <div class="flex" id="about-more">
+    <div class="column">
+      <img id="img1" src="Pictures/exponent-movers-box-2.jpg" alt="Movers">
+      <h2>House Moving</h2>
+      <p>Exponent WordPress theme is insanely flexible and amazingly easy to use. This alone would be enough for a
+        5
+        star rating.</p>
+      <button class="learnmore" id="button5">Learn More</button>
+    </div>
+
+    <div class="column">
+      <img id="img3" src="Pictures/exponent-movers-box-3.jpg" alt="Packers">
+      <h2>Office Moving</h2>
+      <p>Exponent WordPress theme is insanely flexible and amazingly easy to use. This alone would be enough for a
+        5
+        star rating.</p>
+      <button class="learnmore" id="button6">Learn More</button>
+    </div>
+
+    <div class="column">
+      <img id="img4" src="Pictures/exponent-movers-box-img-5.jpg" alt="Retail Movers">
+      <h2>Retail Shop Shifting</h2>
+      <p>Exponent WordPress theme is insanely flexible and amazingly easy to use. This alone would be enough for a
+        5
+        star rating.</p>
+      <button class="learnmore" id="button7">Learn More</button>
+    </div>
+  </div>
+
+  <div class="flex" id="leadershipinfo">
+    <div class="column">
+      <h2>Our Leadership</h2>
+      <span>Exponent WordPress theme is insanely flexible and amazingly easy to use. This alone would be enough for a 5
+        star rating. On top of a great tool is even better customer support.</span>
+    </div>
+  </div>
+
+  <div class="flex" id="leadershipteam">
+    <div class="column" id="team">
+      <img id="img2" src="Pictures/ceo.png" alt="CEO Boss">
+      <h2>Micheal Wagou</h2>
+      <p>Founder & CEO</p>
+      <p>Over 30 high-quality professionally designed pre-built website concepts to choose from.</p>
+    </div>
+
+    <div class="column">
+      <img id="img03" src="Pictures/manager.png" alt="Manager">
+      <h2>Alex Mitchell</h2>
+      <p>Manager</p>
+      <p>Over 30 high-quality professionally designed pre-built website concepts to choose from.</p>
+    </div>
+
+    <div class="column">
+      <img id="img04" src="Pictures/support.png" alt="Customer Support">
+      <h2>John Harris</h2>
+      <p>Customer Support</p>
+      <p>Over 30 high-quality professionally designed pre-built website concepts to choose from.</p>
+    </div>
+  </div>
+
+  <div class="flex" id="services">
+    <div class="column">
+      <h2>Our Services</h2>
+      <h2>Innovation & advancement start here.</h2>
+      <span>Get started swiftly & easily by importing a demo of your choice in a single click. Over 30 high quality
+        professionally designed.</span><br>
+      <button class="quote" id="button8" type="button">Get A Quote</button>
+    </div>
+
+    <div class="flex" id="offeredservice">
+      <div class="column">
+        <i class="fa fa-globe"></i>
+        <h2>International Moving</h2>
+        <p> Get started swiftly & easily by importing a demo of your choice in a single click.</p>
+      </div>
+
+      <div class="column">
+        <i class="fa fa-truck"></i>
+        <h2>Hire Truck</h2>
+        <p> Get started swiftly & easily by importing a demo of your choice in a single click.</p>
+      </div>
+
+      <div class="column">
+        <i class="fa fa-car"></i>
+        <h2>Car Shifting</h2>
+        <p> Get started swiftly & easily by importing a demo of your choice in a single click.</p>
+      </div>
+    </div>
+
+    <div class="flex" id="additionalservices">
+      <div class="column">
+        <i class="fa fa-building-o"></i>
+        <h2>Office Moving</h2>
+        <p> Get started swiftly & easily by importing a demo of your choice in a single click.</p>
+      </div>
+
+      <div class="column">
+        <i class="fa fa-paw"></i>
+        <h2>Pet Shifting</h2>
+        <p> Get started swiftly & easily by importing a demo of your choice in a single click.</p>
+      </div>
+
+      <div class="column">
+        <i class="fa fa-home"></i>
+        <h2>Office Moving</h2>
+        <p> Get started swiftly & easily by importing a demo of your choice in a single click.</p>
+      </div>
+    </div>
+
+    <div class="column" id="why">
+      <div class="column">
+        <h2>Why Choose Us?</h2>
+        <h2>Safe & Secure Moving</h2>
+        <span>Over 30 high quality professionally designed pre-built website concepts to choose from. Build your website
+          using a fully visual interface, using our revolutionary page & header builder.</span> <br><br>
+        <i class="fa fa-truck"> 100% Trustable </i> &emsp; <i class="fa fa-clock-o"> On-time Delivery</i>
+        <hr class="solid">
+        <i class="fa fa-repeat"> 24/7 Support </i> &emsp; &emsp; <i class="fa fa-map-o"> Track Items By App </i>
+        <hr class="solid">
+        <i class="fa fa-copy"> Door to Door </i> &emsp; &emsp; <i class="fa fa-user"> Verified Movers </i><br>
+        <button class="contactus" id="button9" type="button">Contact Us</button>
+
+      </div>
+      <div class="column">
+        <img id="img004" src="Pictures/overall.jpg" alt="Mover in Overalls">
+      </div>
+    </div>
+
+    <div class="flex" id="testimonials">
+      <div class="column">
+        <h2>What our Clients Say</h2>
+        <span>We try our best to tailor a package that meets your particular needs and stays within your budget.</span>
+      </div>
+    </div>
+
+    <div class="flex" id="reviews">
+      <div class="column" id="janettreview">
+        <img id="img5" src="Pictures/stock1.png" alt="Janett Profile Picture">
+        <h2>Janett Smith</h2>
+        <p>“This is a truly spectacular theme! The custom page builder is definitely one of the most intuitive and
+          user-friendly page builders."</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+
+      <div class="column" id="brucereview">
+        <img id="img6" src="Pictures/stock2.png" alt="Bruce Profile Picture">
+        <h2>Bruce Wayne</h2>
+        <p>“Great theme and efficient support! So much choice for design layout and functionality backed up with very
+          knowledgable support staff.”</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+      </div>
+
+      <div class="column" id="joanreview">
+        <img id="img" src="Pictures/stock3.png" alt="Joan Profile Picture">
+        <h2>Joan Harris</h2>
+        <p>“I love how flexible this theme is. It has helped me get from a basic WordPress site to an elevated and
+          premium look for my business."</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+      </div>
+    </div>
+
+    <div class="column" id="pricing">
+      <div class="column" id="pricinghead">
+        <h2>Pricing</h2>
+        <h2>Packing & moving services with 100% satisfaction.</h2>
+        <p>Professional support answers by trained answering machine with advanced alien technology to answer all your
+          questions</p>
+      </div>
+
+      <div class="column" id="starter">
+        <img id="img7" src="Pictures/box1.png" alt="Blue Box">
+        <h2>$20.99 / Month</h2>
+        <h2>STARTER</h2>
+        <i class="fa fa-check"> Domestic Shifting </i>
+        <hr class="solid">
+        <i class="fa fa-check"> International Shifting </i>
+        <hr class="solid">
+        <i class="fa fa-check"> Office Shifting </i>
+        <hr class="solid">
+        <i class="fa fa-check"> Warehousing & Storage </i> <br>
+        <button class="hirenow" id="button10">Hire Now</button>
+
+      </div>
+      <div class="column" id="professional">
+        <img id="img07" src="Pictures/box1.png" alt="Blue Box">
+        <h2>$50.99 / Month</h2>
+        <h2>PROFESSIONAL</h2>
+        <i class="fa fa-check"> Domestic Shifting </i>
+        <hr class="solid">
+        <i class="fa fa-check"> International Shifting </i>
+        <hr class="solid">
+        <i class="fa fa-check"> Office Shifting </i>
+        <hr class="solid">
+        <i class="fa fa-check"> Car Transportation</i> <br>
+        <button class="hirenow" id="button11">Hire Now</button>
+      </div>
+    </div>
+
+    <div class="flex" id="securityinfo">
+      <div class="column">
+        <img id="img01" src="Pictures/Exponent-Movers-delivery-man.png" alt="Mover Wearing Blue">
+      </div>
+
+      <div class="column" id="securitypriority">
+        <h2>Security is our top priority</h2>
+        <span>Over 30 high quality professionally designed pre-built website concepts to choose from. Build your
+          website using a fully visual interface, using our revolutionary page & header builder.</span> <br>
+        <button class="quote" id="button12" type="button">Get A Quote</button>
+      </div>
+    </div>
+
+    <div class="flex" id="serviceinfo">
+      <div class="column">
+        <img id="img001" src="Pictures/exponent-movers-faq-image.png" alt="Man Moving Couch">
+      </div>
+
+      <div class="column" id="detailsmenu">
+        <details>
+          <summary>What's Special About Your Theme?</summary>
+          <p>Build your website using a fully visual interface, using our revolutionary page & header builder.</p>
+        </details>
+
+        <details>
+          <summary>How Much Do You Charge?</summary>
+          <p>Build your website using a fully visual interface, using our revolutionary page & header builder.</p>
+        </details>
+
+        <details>
+          <summary>Do You Offer Support?</summary>
+          <p>Build your website using a fully visual interface, using our revolutionary page & header builder.</p>
+        </details>
+
+        <details>
+          <summary>Can I Get A Free Consultation?</summary>
+          <p>Build your website using a fully visual interface, using our revolutionary page & header builder.</p>
+        </details>
+
+        <details>
+          <summary>Do You Offer Refunds?</summary>
+          <p>Build your website using a fully visual interface, using our revolutionary page & header builder.</p>
+        </details>
+      </div>
+    </div>
+
+    <div class="flex" id="burningquestions">
+      <div class="column" id="bquestions">
+        <h2>Got Some Burning Questions?</h2>
+        <span>Dont be shy, Just tell us about yourself and we’ll figure out the best option for you and your
+          project. Dont like Filling up forms? </span>
+        <p>FOR 24/7 EMERGENCY SUPPORT <br> 890-658-5875</p>
+        <button class="quote" id="button13" type="button">Get A Quote</button>
+        <button class="learnmore" id="button14" type="button">Learn More</button>
+      </div>
+
+      <div class="column">
+        <h2>Contact Information</h2>
+        <p>Exponent WordPress theme is insanely flexible and easy to use.</p>
+        <form action="/action_page.php">
+          <label for="fname1">First name:</label><br>
+          <input type="text" id="fname1" name="fname1" value=""><br>
+          <label for="lname1">Last name:</label><br>
+          <input type="text" id="lname1" name="lname1" value=""><br>
+          <label for="email1">E-mail:</label><br>
+          <input type="text" id="email1" name="email1" value=""><br>
+          <label for="number1">Phone Number:</label><br>
+          <input type="text" id="number1" name="number1" value=""><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+
+    <div class="flex" id="addtionalcontactinfo">
+      <div class="column" id="map">
+        <i class="fa fa-map-marker"></i>
+        <h2>Address</h2>
+        <p>Express Chambers II Spaces Works, Level 5, Royapettah.</p>
+      </div>
+
+      <div class="column" id="envelope">
+        <i class="fa fa-envelope-square"></i>
+        <h2>E-mail</h2>
+        <p>help@brandexponents.com</p>
+        <p>info@brandexponents.com</p>
+      </div>
+
+      <div class="column" id="cell">
+        <i class="fa fa-phone"></i>
+        <h2>Call Us</h2>
+        <p>+1-800-256-5847</p>
+        <p>+1-800-256-5847</p>
+      </div>
+    </div>
+
+    <div id="hteam3">
+      <h2><img id="logo2" src="Pictures/exp-logo-light.svg" alt="Logo2when"></h2>
+      <p>Exponent is a modern business theme, that lets you build stunning high performance websites using a fully
+        visual interface. </p>
+    </div>
+
+    <div class="flex" id="sevicelistbot">
+      <div class="column" id="ourservices">
+        <h2>Our Services</h2>
+        <p>Home Moving</p>
+        <p>Office Moving</p>
+        <p>Pet Shifting</p>
+        <p>International Moving</p>
+      </div>
+
+
+      <div class="column" id="quicklinks">
+        <h2>Quick Links</h2>
+        <p>FAQ</p>
+        <p>Team</p>
+        <p>Why Choose Us</p>
+        <p>Testimonials</p>
+      </div>
+
+      <div class="column" id="contactinfo">
+        <h2>Contact Info</h2>
+        <p><i class="fa fa-phone"></i> 654 754 7897 </p>
+        <p><i class="fa fa-envelope-square"></i> Hello@example.com </p>
+        <p><i class="fa fa-map-marker"></i> 935 Allen Way, Yuba City
+          CA, USA. </p>
+      </div>
+    </div>
+
+    <footer>
+      <hr class="solid">
+      <p id="copyright">Copyright 2019 @ Brand Exponents. All rights reserved.</p>
+
+      <div id="icons2">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </footer>
+  </div>
+
+</body>

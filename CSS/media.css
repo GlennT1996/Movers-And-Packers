@@ -1,0 +1,121 @@
+@media screen and (max-width: 1400px) {
+    #header {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #logo {
+        float: left;
+        max-width: 50%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #sidenavdisplay {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    #home-services,
+    #about-us,
+    #about-more,
+    #securityinfo,
+    #serviceinfo,
+    #burningquestions,
+    #addtionalcontactinfo,
+    #sevicelistbot,
+    #leadershipinfo,
+    #leadershipteam,
+    #services {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25%;
+        text-align: center;
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    #securitypriority,
+    #detailsmenu {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25%;
+        text-align: center;
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #burningquestions {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25%;
+        text-align: center;
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .learnmore,
+    #leadershipteam,
+    #offeredservice,
+    #additionalservices,
+    #reviews {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    #img004,
+    #img01,
+    #img001,
+    footer {
+        flex-direction: column;
+        max-width: 50%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    #map,
+    #envelope,
+    #cell,
+    #ourservices,
+    #quicklinks,
+    #contactinfo {
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        text-align: center;
+        text-align: center;
+        font-size: 200%;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    #icons2 {
+        display: inline-flex;
+        margin-left: auto;
+    }
+}

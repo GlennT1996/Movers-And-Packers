@@ -1,0 +1,279 @@
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+body {
+  background: linear-gradient(-45deg, #5C54CF, #B34FE0, #FDB721, #FB3443);
+  background-size: 400% 400%;
+  animation: change 15s ease infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html {
+  font-family: 'Gordita';
+  font-size: 2rem;
+
+}
+
+
+p,
+h2,
+span,
+details {
+  color: #FFFFFF;
+  font-family: 'Helvetica Neue', sans-serif;
+
+}
+
+#header {
+  color: #FFFFFF;
+}
+
+#phone,
+#email,
+#hours {
+  margin: 10px;
+
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-truck,
+.fa-clock-o,
+.fa-repeat,
+.fa-map-o,
+.fa-copy,
+.fa-user,
+.fa-globe,
+.fa-car,
+.fa-building-o,
+.fa-paw,
+.fa-home,
+.fa-check,
+.fa-map-marker,
+.fa-envelope-square,
+.fa-phone,
+.fa-envelope {
+  color: #FFFFFF;
+}
+
+#icons {
+  margin: 10px;
+  margin-left: auto;
+}
+
+
+#logo {
+  max-width: 100%;
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  background: linear-gradient(-45deg, #5C54CF, #B34FE0, #FDB721, #FB3443);
+  background-size: 400% 400%;
+  animation: change 15s ease infinite;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(-45deg, #5C54CF, #B34FE0, #FDB721, #FB3443);
+  background-size: 400% 400%;
+  animation: change 15s ease infinite;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#sidenavdisplay {
+  margin-top: 10%;
+  margin-left: 90%;
+  color: #FFFFFF;
+}
+
+.column {
+  text-align: center;
+}
+
+#home-services {
+  margin-top: 25%;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+#packerts,
+#requestquote,
+#img0,
+#ourcompany {
+  width: 100%;
+}
+
+label {
+  color: #FFFFFF;
+
+}
+
+.quote,
+.learnmore,
+.availability,
+.contactus,
+.hirenow {
+  align-items: center;
+  background: linear-gradient(-45deg, #5C54CF, #B34FE0, #FDB721, #FB3443);
+  background-size: 400% 400%;
+  animation: change 15s ease infinite;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Helvetica Neue', sans-serif;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+#about-us,
+#leadershipinfo,
+#why,
+#testimonials,
+#pricinghead,
+#securityinfo,
+#serviceinfo,
+#burningquestions,
+#addtionalcontactinfo,
+#hteam3 {
+  margin-top: 25%;
+  text-align: center;
+  width: 100%;
+
+}
+
+#testimonials {
+  margin-bottom: 12.5%;
+}
+
+#leadershipteam,
+#about-more {
+  margin-top: 12.5%;
+  text-align: center;
+  width: 100%;
+}
+
+#services {
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#button8,
+#button9,
+.hirenow,
+#button12 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#testimonials {
+  flex-direction: column;
+}
+
+.checked {
+  color: orange;
+}
+
+#map,
+#envelope,
+#cell,
+#ourservices,
+#quicklinks,
+#contactinfo {
+  width: 33.33%;
+  flex-direction: row;
+}
+
+#icons2,
+#copyright {
+  text-align: center;
+}
+
+#detailsmenu {
+  margin: auto;
+}
