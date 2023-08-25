@@ -1,121 +1,274 @@
-@media screen and (max-width: 1400px) {
-    #header {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    #logo {
-        float: left;
-        max-width: 50%;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    nav {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1275px) {
     #sidenavdisplay {
         display: none;
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1275px) {
+    nav {
+        display: none;
+    }
 
-    #home-services,
+    #logo {
+        max-width: 50%;
+        max-height: 50%;
+        text-align: center;
+        float: left;
+        margin-left: 5%;
+    }
+
+    #home-services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #packers,
+    #requestquote {
+        width: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 70%;
+    }
+
+    #packers {
+        text-align: center;
+    }
+
+    #emergency {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .quote {
+        display: none;
+    }
+
+    .learnmore {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1975px) {
+
     #about-us,
     #about-more,
-    #securityinfo,
+    #leadershipinfo,
+    #leadershipteam,
+    #services,
+    #service3,
+    #services2,
+    #why,
+    #reviews,
+    #testimonials,
+    #pricing,
     #serviceinfo,
     #burningquestions,
     #addtionalcontactinfo,
     #sevicelistbot,
-    #leadershipinfo,
-    #leadershipteam,
-    #services {
+    #footer {
         flex-direction: column;
         align-items: center;
-        margin-top: 25%;
         text-align: center;
-        font-size: 50%;
+        margin-top: 10%;
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        font-size: 70%;
+
     }
-}
 
-@media screen and (max-width: 1400px) {
-
-    #securitypriority,
-    #detailsmenu {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 25%;
-        text-align: center;
-        font-size: 200%;
+    #testimonials,
+    #why,
+    #pricing {
+        margin-top: 20%;
+        font-size: 70%;
     }
-}
 
-@media screen and (max-width: 1400px) {
-    #burningquestions {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 25%;
-        text-align: center;
-        font-size: 100%;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-
-    .learnmore,
-    #leadershipteam,
-    #offeredservice,
-    #additionalservices,
-    #reviews {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5%;
-        margin-bottom: 10%;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-
-    #img004,
-    #img01,
-    #img001,
-    footer {
-        flex-direction: column;
-        max-width: 50%;
-        text-align: center;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-
-    #map,
-    #envelope,
-    #cell,
+    #xp-image,
+    #globe,
+    #truck1,
+    #car1,
+    #building1,
+    #home1,
+    #paw1,
+    #pricing,
+    #burningquestions,
+    #addtionalcontactinfo,
     #ourservices,
     #quicklinks,
-    #contactinfo {
-        flex-direction: column;
+    #contactinfo,
+    #footer,
+    #icons2,
+    #footer1 {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+        font-size: 70%;
+    }
+
+    #hteam3 {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+        font-size: 70%;
+    }
+
+    #ourcompany {
+        width: 70%;
+        height: 200%;
+    }
+
+    #about-packers,
+    #about-movers,
+    #about-retail,
+    #leadershipinfo {
+        margin-top: 10%;
+        margin-bottom: 10%;
         width: auto;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 70%;
+    }
+
+    #services4 {
+        display: none;
+    }
+
+    #button9 {
+        width: 30%;
+        margin-left: 5%;
+    }
+
+    #securityinfo {
+        flex-direction: column-reverse;
         align-items: center;
         text-align: center;
-        text-align: center;
-        font-size: 200%;
+        margin-top: 10%;
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        font-size: 70%;
     }
+
+    #securitypriority,
+    #starter,
+    #professional {
+        text-align: center;
+        margin-bottom: 10%;
+        font-size: 70%;
+    }
+
+    #img01 {
+        margin-left: 10%;
+    }
+
+    #bquestions,
+    #bquestionscontactinfo,
+    #mapinfo,
+    #envelopeinfo,
+    #cellinfo {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 70%;
+    }
+
+    #mapinfo,
+    #envelopeinfo,
+    #cellinfo,
+    #why2 {
+        font-size: 70%;
+        text-align: center;
+    }
+
+    #logo2 {
+        width: 50%;
+        height: 50%;
+    }
+
 }
 
 
-@media screen and (max-width: 1400px) {
-    #icons2 {
-        display: inline-flex;
-        margin-left: auto;
+@media screen and (max-width: 950px) {
+
+    #team,
+    #leadmanager,
+    #teamsupp,
+    #janettreview,
+    #brucereview,
+    #joanreview,
+    #pricinghead,
+    #starter,
+    #professional,
+    #detailsmenu {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 70%;
+
     }
+
+    #leadershipinfo {
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 200%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    #ourcompany,
+    #detailsmenu {
+        font-size: 70%;
+        height: 300%;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    #img0,
+    #img01,
+    #img001,
+    #img1,
+    #img3,
+    #img4 {
+        width: 80%;
+        height: 80%;
+    }
+
+    #img2,
+    #img03,
+    #img04,
+    #img004,
+    #img01,
+    #img001 {
+        width: 60%;
+        height: 60%;
+    }
+
+    #about-packers,
+    #about-movers,
+    #about-retail {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 70%;
+
+    }
+
+    #button12 {
+        width: 50%;
+    }
+
+
 }
