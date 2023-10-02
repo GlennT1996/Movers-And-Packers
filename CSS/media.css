@@ -1,1 +1,103 @@
+@media screen and (max-width: 1200px) {
+    .navbar {
+        display: none;
+    }
 
+    #packers,
+    #xp-image {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    #request-quote {
+        width: 30%;
+        margin: auto;
+    }
+
+    #about-packers,
+    #about-movers,
+    #about-retail,
+    #team-ceo,
+    #team-manager,
+    #team-support {
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+
+    #janettreview,
+    #brucereview,
+    #joanreview,
+    #professional {
+        margin: auto;
+        margin-top: 15%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        display: inline-block;
+        width: 75%;
+    }
+
+    #img001,
+    #img01,
+    #img004,
+    #img0 {
+        width: 100%;
+        height: 100%;
+    }
+
+    #professional {
+        margin-top: 10%;
+    }
+
+    #request-quote {
+        width: 200%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card {
+        display: inline-block;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #request-quote {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #services-p2 {
+        display: none;
+    }
+
+    #contact-form,
+    #address,
+    #contact-email,
+    #call-us {
+        margin: auto;
+    }
+
+    footer,
+    #icons2 {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #request-quote {
+        display: none;
+    }
+}
