@@ -4,15 +4,23 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #ffffff;
-  
+
 }
 
-#logo, #logo2 {
+#logo,
+#logo2 {
   width: 113.33px;
   height: 21.98px;
 }
 
-#home-services, #about-us, #we-work, #why, #testimonials, #pricing, #service-info, #burning-questions {
+#home-services,
+#about-us,
+#we-work,
+#why,
+#testimonials,
+#pricing,
+#service-info,
+#burning-questions {
   margin-top: 15%;
 }
 
@@ -32,11 +40,20 @@ body {
   margin-top: -5%;
 }
 
-#about-section {
-  background: linear-gradient(#ffffff 26.5%, #007bff 26.5%);
+#icons2 {
+  text-align: right;
 }
 
-#about-movers, #about-packers, #about-retail, #janettreview, #brucereview, #joanreview {
+#about-section {
+  background: linear-gradient(#ffffff 20%, #007bff 20%);
+}
+
+#about-movers,
+#about-packers,
+#about-retail,
+#janettreview,
+#brucereview,
+#joanreview {
   margin-left: 1%;
 }
 
@@ -45,10 +62,12 @@ body {
 }
 
 #reviews {
-  margin-left: 10%;
+  text-align: center;
 }
 
-#img5, #img6, #img007 {
+#img5,
+#img6,
+#img007 {
   margin-top: -15%;
 }
 
@@ -61,11 +80,12 @@ body {
 }
 
 #img001 {
-  width: 555px; 
+  width: 555px;
   height: 387.61px;
 }
 
-#pricing-section, #burning-section {
+#pricing-section,
+#burning-section {
 
   background: linear-gradient(#ffffff 40.5%, #007bff 40.5%);
 
@@ -86,5 +106,3 @@ body {
   box-shadow: 5px 5px black;
   z-index: 1;
 }
-
-
